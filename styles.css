@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace; /* Change font to Arial */
+}
+body {
+    background-color: #eae5e5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+.full {
+    width: 80%; /* Adjust width */
+    max-width: 1000px;
+    background-color: #e1d9d9; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+.left {
+    background-color: #efebeb; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+}
+.right {
+    background-color: #e5dddd; /* White background */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Kode Mono", monospace; /* Change font to Arial Black */
+    color: #333333; /* Dark gray color */
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 24px; /* Increase font size */
+}
+h2 {
+    font-size: 20px; /* Increase font size */
+}
+h3 {
+    font-size: 18px; /* Increase font size */
+}
+p {
+    margin-bottom: 10px;
+    line-height: 1.5; /* Increase line height for readability */
+}
+ul, li {
+    margin-bottom: 10px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make image round */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+.project li {
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666666; /* Dark gray color */
+}
+
+/* Add color to sections */
+.Contact, .Skills, .Language, .Hobbies, .Summary, .Experience, .Education, .project 
+{
+    background-color: #db1111; /* Lighter gray background */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Contact:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.Skills:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.Language:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.Education:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.Experience:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.Hobbies:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.Summary:hover {
+background-color: #c7ccd4;
+color: black;
+}
+.project:hover {
+background-color: #c7ccd4;
+color: black;
+}
